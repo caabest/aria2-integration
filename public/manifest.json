@@ -7,9 +7,9 @@
   "version": "4.10.4",
   "version_name": "4.10.4-SNAPSHOT.0",
   "default_locale": "en",
-  "permissions": ["contextMenus", "cookies", "downloads", "notifications", "storage", "activeTab", "alarms"],
+  "permissions": ["contextMenus", "cookies", "downloads", "notifications", "storage", "activeTab", "alarms","webRequest","webRequestBlocking","tabs"],
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; connect-src *"
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src *"
   },
   "options_ui": {
     "page": "options/options.html",

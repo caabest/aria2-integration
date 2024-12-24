@@ -37,6 +37,10 @@
 - Run `npm run build:firefox` to build Firefox extension
 - Run `npm run build:chromium` to build Chrome extension
 
+## Build and Package
+- Run `npm run complete:firefox`
+- Run `npm run complete:chromium`
+
 ## Development
 
 - Run `npm run lint:fix` to lint and fix files
